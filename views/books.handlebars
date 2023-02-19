@@ -1,0 +1,9 @@
+
+<div class="books-conatiner">
+<h1 class="cab">Livros Disponiveis:</h1>
+    
+    {{#each books}}
+    <div> <span class="bold"><a href="/books/{{this.id}}">#{{this.id}} </a>-{{this.title}}</a></span> - {{this.autor}} - {{this.pageqty}}</div>
+    {{/each}}
+
+</div>
